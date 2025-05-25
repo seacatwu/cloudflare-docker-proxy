@@ -6,6 +6,8 @@ ip = "0.0.0.0"
 port = 8787
 local_protocol = "http"
 
+env YARN_ENABLE_IMMUTABLE_INSTALLS = false
+
 [env.vars]
 CUSTOM_DOMAIN = "libcuda.so"
 
